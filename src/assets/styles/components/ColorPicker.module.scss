@@ -1,0 +1,48 @@
+.text-colorPicker__container,
+.gradient-colorPicker__container,
+.background-colorPicker__container{
+    align-items: center;
+    color: #fff;
+    display: flex;
+    font-size: 1em;
+    justify-content: space-between;
+    margin: 5px auto;
+    width: 80%;
+}
+.picker-area {
+    width: 30px;
+    height: 30px;
+}
+.picker-wrapper{
+    height: 30px;
+    width: 30px;
+    border: none;
+    border-radius: 100%;
+    overflow: hidden;
+}
+.ColorPickerContainer input{
+    background-color: transparent;
+    border: none;
+    border-radius: 100%;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+.picker-container{
+    height: 100%;
+    width: 100%;
+    display: inline-grid;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    margin: 0;
+    padding: 0;
+    align-content: center;
+    border: solid 2px rgba(176, 176, 176, 0.5);
+    box-sizing: border-box;
+}

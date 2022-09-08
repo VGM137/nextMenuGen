@@ -1,0 +1,46 @@
+.EnterContainer{
+  width: 100%;
+  display: flex;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+.btn-container{
+  width: auto;
+  display: flex;
+  margin: 10px auto;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+.btn{
+  font-weight: 500;
+  height: auto;
+  width: auto;
+  color: #bbbbbb;
+  background-color: #333333;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px 0px #b1b1b1;
+  box-sizing: border-box;
+}
+.enter{
+  width: 100%;
+  color: black;
+  background-color: rgba(0,0,0,0);
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+.EnterContainer::selection{
+  color: black;
+  background: white;
+}
+.EnterContainer input[type="date" i]{
+  -webkit-filter: invert(100%);
+  filter: invert(100%) grayscale(100%);
+}

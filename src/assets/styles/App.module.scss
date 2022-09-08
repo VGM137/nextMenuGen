@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Finger Paint', cursive;
+  src: url('https://fonts.googleapis.com/css2?family=Finger+Paint&family=Rock+Salt&display=swap');
+}
+
+.Principal{
+  width: 100vw;
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto
+}
+
+.container__wrapper{
+  margin: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .Principal{
+    grid-template-columns: 100%;
+  }
+}

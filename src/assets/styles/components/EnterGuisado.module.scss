@@ -1,0 +1,41 @@
+.EnterContainer{
+  width: 100%;
+  display: flex;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+.guisado{
+  width: 100%;
+  color: white;
+  background-color: rgba(0,0,0,0);
+  border: none;
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+.btn-container{
+  width: auto;
+  display: flex;
+  margin: 10px auto;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+.btn{
+  font-weight: 500;
+  height: auto;
+  width: auto;
+  color: #bbbbbb;
+  background-color: #333333;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px 0px #b1b1b1;
+  box-sizing: border-box;
+}
+.btn:active{
+  box-shadow: 0px 0px 0px 0px #8f7171;
+  color: #686868;
+}

@@ -1,0 +1,58 @@
+.entradas{
+  min-width: 100px;
+  max-width: 200px;
+  margin: auto;
+  font-size: 1em;
+}
+
+.DownloadBtn{
+  width: auto;
+  display: block;
+  margin: 50px auto;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+.btn{
+  font-weight: 500;
+  height: auto;
+  width: auto;
+  color: #bbbbbb;
+  background-color: #333333;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px 0px #b1b1b1;
+  box-sizing: border-box;
+  display: flex;
+  margin: 0 auto 20px;
+}
+
+.link{
+  height: auto;
+  display: flex;
+  margin: auto;
+}
+
+.linkGo{
+  justify-content: center;
+  line-break: anywhere;
+  text-decoration: none;
+  width: fit-content;
+}
+
+.EditStyles{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 20px auto 0;
+}
+
+@media screen and (max-width: 768px){
+  .entradas{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    max-width: 90vw;
+  }
+}

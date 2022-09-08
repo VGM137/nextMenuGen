@@ -1,0 +1,19 @@
+.Header{
+  display: flex;
+  justify-content: center;
+  min-height: 10vh;
+  max-height: 15vh;
+  box-shadow: 0 0 20px 7px rgba(186, 186, 186, 0.5);
+  margin-bottom: 40px;
+  border-radius: 0 0 10px 10px;
+  color: white;
+}
+
+.headerImgWrapper{
+  height: 100%;
+  width: auto;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}

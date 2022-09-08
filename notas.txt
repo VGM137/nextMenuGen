@@ -1,0 +1,12 @@
+Los estilos cambian a archivos en modulos: File.module.scss
+
+Next trabaja las rutas con archivos .js y directorios
+
+ECMAScript 6 
+  Optional chaining object?.level[index]
+
+Imagenes de la web
+  Para traer imagenes de un sitio web hay que agregar una opción en el archivo next.config.js:
+  images:{
+    domains: ['cdn.example.com', 'page.com']
+  } 
